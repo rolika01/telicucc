@@ -1,0 +1,63 @@
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+body{
+    background-image: url("kepek/hatter.jpg");
+}
+header{
+    background-image: url("kepek/fejlec.jpg");
+    grid-area: h;
+}
+main{
+    display: grid;
+    grid-template-areas:"h h h h h"
+                         "n a a as as"
+                         "f f f f f ";
+
+}
+nav{
+    grid-area: n;
+}
+article{
+    grid-area: a;
+}
+aside{
+    grid-area: as;
+}
+footer{
+    grid-area: f;
+}
+section img{
+    width:100%;
+    box-shadow: 5px 10px;
+}
+.gombok{
+    background-color: #324fd3; 
+    text-align: center;
+    width: 150px;
+    color:white;
+    border-radius: 12px;
+}
+polaroid {
+    width: 284px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+  }
+  
+  .jobb {
+    float: left;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Safari */
+    transform: rotate(7deg);
+  }
+  
+  .bal {
+    float: left;
+    -ms-transform: rotate(-8deg); /* IE 9 */
+    -webkit-transform: rotate(-8deg); /* Safari */
+    transform: rotate(-8deg);
+  }
